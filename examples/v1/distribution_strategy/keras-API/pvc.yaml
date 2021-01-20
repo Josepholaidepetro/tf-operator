@@ -5,7 +5,7 @@ metadata:
   labels:
     app: strategy-volume
 spec:
-  storageClassName: "Your storageClassName"
+  storageClassName: standard
   accessModes:
   - ReadWriteMany
   resources:
